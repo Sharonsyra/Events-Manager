@@ -1,0 +1,42 @@
+:root {
+    background-image: url("https://images.unsplash.com/photo-1515529112721-c52c4bcb4f87?auto=format&fit=crop&w=2550&q=80");
+  }
+  
+  table {
+    margin-left: 100px;
+    margin-top: 15px;
+  }
+  
+  button {
+    margin-top: 30px;
+  }
+  
+  .col-1 {
+    margin-right: 50px;
+    color: white;
+    margin-top: 0px;
+  }
+  
+  .col-1 button {
+    background: #00004c;
+    color: white;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+  }
+  
+  form {
+    background: #fafafa;
+    padding: 30px;
+  }
+  
+  .social button {
+    background-color: #0d47a1;
+    padding: 10px;
+    color: white;
+  }
+  
+  .submit {
+    background-color: #00c853;
+    padding: 10px;
+  }
