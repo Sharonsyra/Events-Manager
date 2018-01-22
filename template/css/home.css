@@ -1,0 +1,69 @@
+:root {
+    background: #e6ecf0;
+}
+.topnav {
+  overflow: hidden;
+  padding-left: 230px;
+  padding-right: 230px;
+  background: white;
+}
+
+.topnav a {
+  float: left;
+  color: #66757f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #FA0A7E;
+  border-bottom: solid 2px #FA0A7E;
+}
+
+.topnav a.active {
+  color: #FA0A7E;
+  border-bottom: solid 2px #FA0A7E;
+}
+
+.twitter {
+    float: center;
+}
+
+.rightnav {
+    float: right;
+    margin: 5px;
+}
+
+.rightnav .search {
+    float: left;
+    border: 1px solid #FA0A7E;
+    border-radius: 30px;
+}
+
+.rightnav input {
+    margin: 9px;
+    font-size: 15px;
+    border: none;
+}
+
+.rightnav button {
+    float: right;
+    margin: 9px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.rightnav img {
+    border-radius: 50%;
+    margin: 0 5px 0 5px;
+}
+
+.rightnav .newevent {
+    background: #FA0A7E;
+    color: white;
+    border-radius: 30px;
+    margin: 5px 0 5px 5px;
+}
