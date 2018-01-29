@@ -9,7 +9,7 @@ module.exports = (sequelize, DataTypes) => {
   
   Center.associate = (models) => {
     Center.belongsToMany(models.Event, {
-      through: "event_center",
+      through: 'event_center',
     });
   };
 
