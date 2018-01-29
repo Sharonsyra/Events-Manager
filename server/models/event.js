@@ -9,10 +9,10 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.STRING,
     },
     starts: {
-      type: DataTypes.STRING,
+      type: DataTypes.DATE,
     },
     ends: {
-      type: DataTypes.STRING,
+      type: DataTypes.DATE,
     },
     description: {
       type: DataTypes.STRING,
@@ -21,7 +21,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.STRING,
     },
     organizersDescription: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
     }
   });
 

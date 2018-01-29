@@ -13,27 +13,21 @@ module.exports = {
         type: Sequelize.STRING,
       },
       location: {
-        allowNull: true,        
         type: Sequelize.STRING,
       },
       starts: {
-        allowNull: true,        
         type: Sequelize.STRING,
       },
       ends: {
-        allowNull: true,        
         type: Sequelize.STRING,
       },
       description: {
-        allowNull: true,
         type: Sequelize.STRING,
       },
       organizersName: {
-        allowNull: true,
         type: Sequelize.STRING,
       },
       organizersDescription: {
-        allowNull: true,
         type: Sequelize.STRING,
       },
       createdAt: {
@@ -43,6 +37,15 @@ module.exports = {
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE,
+      },
+      centerId: {
+        type: Sequelize.INTEGER,
+        onDelete: 'CASCADE',
+        references: {
+          model: 'Center',
+          key: 'id',
+          as: 'centerId',
+        },
       },
     }),
   down: (queryInterface /* , Sequelize */) => queryInterface.dropTable('Events'),
